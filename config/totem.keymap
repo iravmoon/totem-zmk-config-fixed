@@ -39,7 +39,7 @@
 
         combo_tvp {
             timeout-ms = <100>;
-            key-positions = <8 9>;
+            key-positions = <5 6>;
             bindings = <&kp BACKSPACE>;
         };
 
@@ -50,7 +50,7 @@
 
         ResetToHome {
             bindings = <&to 0>;
-            key-positions = <2 3 4 5 6 7>;
+            key-positions = <2 3 4>;
         };
 
         Device_layer {
