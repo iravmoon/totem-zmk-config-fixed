@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TILDE  &kp LG(Q)  &kp LG(W)  &trans  &trans              &kp RG(UP_ARROW)    &kp RA(LEFT)       &kp UP_ARROW  &kp RA(RIGHT)  &kp PAGE_UP
-        &kp TAB    &trans     &trans     &trans  &trans              &kp RG(DOWN_ARROW)  &kp LEFT           &kp DOWN      &kp RIGHT      &kp PAGE_DOWN
-&trans  &trans     &trans     &trans     &trans  &kp LEFT_COMMAND    &trans              &kp RG(LEFT)       &kp F12       &kp RG(RIGHT)  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)
-                              &trans     &to 0   &trans              &kp RA(RG(LEFT))    &kp RG(RA(RIGHT))  &trans
+        &kp TILDE  &kp LG(Q)      &kp LG(W)  &trans  &trans    &kp RG(UP_ARROW)    &kp RA(LEFT)       &kp UP_ARROW  &kp RA(RIGHT)  &kp PAGE_UP
+        &kp TAB    &kp RS(TILDE)  &trans     &trans  &trans    &kp RG(DOWN_ARROW)  &kp LEFT           &kp DOWN      &kp RIGHT      &kp PAGE_DOWN
+&trans  &trans     &kp RS(TAB)    &trans     &trans  &trans    &trans              &kp RG(LEFT)       &kp F12       &kp RG(RIGHT)  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)
+                                  &trans     &to 0   &trans    &kp RA(RG(LEFT))    &kp RG(RA(RIGHT))  &trans
             >;
         };
 
