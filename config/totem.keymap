@@ -137,7 +137,7 @@
         &trans  &kp LG(Q)  &kp LG(W)  &trans         &trans    &kp RG(UP_ARROW)    &kp RA(LEFT)       &kp UP_ARROW  &kp RA(RIGHT)  &kp PAGE_UP
         &trans  &trans     &trans     &trans         &trans    &kp RG(DOWN_ARROW)  &kp LEFT           &kp DOWN      &kp RIGHT      &kp PAGE_DOWN
 &trans  &trans  &trans     &trans     &trans         &trans    &trans              &kp RG(LEFT)       &kp F12       &kp RG(RIGHT)  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)
-                           &trans     &kp LS(GRAVE)  &trans    &kp RA(RG(LEFT))    &kp RG(RA(RIGHT))  &trans
+                           &trans     &kp LG(GRAVE)  &trans    &kp RA(RG(LEFT))    &kp RG(RA(RIGHT))  &trans
             >;
         };
 
